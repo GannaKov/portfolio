@@ -1,8 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
+"use client";
 import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import { Globe } from "./Globe";
 import { GlobeDemo } from "./GridGlobe";
+import Lottie from "react-lottie";
+import animationData from "@/data/confetti.json";
+import { useState } from "react";
 
 export const BentoGrid = ({
   className,
@@ -44,6 +48,9 @@ export const BentoGridItem = ({
 }) => {
   const leftLists = ["ReactJS", "NodeJS", "Express"];
   const rightLists = ["MongoDB", "SQL", "React Native"];
+
+  const [copied, setCopied] = useState(false);
+
   return (
     <div
       className={cn(
@@ -131,6 +138,26 @@ export const BentoGridItem = ({
                   </span>
                 ))}
                 {/* lg:py-4 py-4 */}
+              </div>
+            </div>
+          )}
+          {id === 6 && (
+            <div className="mt-5 relative">
+              <div
+                className={`absolute -bottom-5 right-0 ${
+                  copied ? "block" : "block"
+                }`}
+              >
+                <Lottie
+                  options={{
+                    loop: copied,
+                    autoplay: copied,
+                    animationData: animationData,
+                    rendererSettings: {
+                      preserveAspectRatio: "xMidYMid slice",
+                    },
+                  }}
+                />
               </div>
             </div>
           )}
