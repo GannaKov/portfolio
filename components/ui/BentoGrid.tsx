@@ -53,7 +53,7 @@ export const BentoGridItem = ({
   const rightLists = ["MongoDB", "SQL", "React Native"];
 
   const [copied, setCopied] = useState(false);
-  console.log("copied", copied);
+
   const handleCopy = () => {
     const text = "zlatta2000@gmail.com";
     navigator.clipboard.writeText(text);
@@ -172,12 +172,13 @@ export const BentoGridItem = ({
                   width={400}
                 />
               </div>
+
               <MagicButton
                 title={copied ? "Email is Copied!" : "Copy my email address"}
                 icon={<IoCopyOutline />}
                 position="left"
                 handleClick={handleCopy}
-                otherClasses="!bg-[#161A31] "
+                otherClasses="!bg-[#161A31] mb-4"
               />
             </div>
           )}
