@@ -7,7 +7,7 @@ import { FaLocationArrow } from "react-icons/fa";
 const RecentProjects = () => {
   <RecentProjects />;
   return (
-    <div className="pt-40 relative">
+    <div className="pt-40 relative" id="projects">
       {/* heading */}
       <h1 className=" heading  text-blue-100 mb-16">
         A small selection of&nbsp;
@@ -21,7 +21,7 @@ const RecentProjects = () => {
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <div
             // sm:h-[41rem] h-[32rem]  lg:min-h-[32.5rem] p-8
-            className="flex items-center justify-center sm:w-[470px] w-[80vw] "
+            className="flex items-center justify-center sm:w-[470px] w-[80vw]  "
             key={id}
           >
             <PinContainer title={link} href={link}>
