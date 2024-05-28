@@ -2,7 +2,7 @@
 "use client";
 import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./GradientBg";
-import { Globe } from "./Globe";
+
 import { GlobeDemo } from "./GridGlobe";
 import Lottie from "react-lottie";
 // import animationData from "@/data/confetti.json";

@@ -119,6 +119,17 @@ export function Globe({ globeConfig, data }: WorldProps) {
     for (let i = 0; i < arcs.length; i++) {
       const arc = arcs[i];
       const rgb = hexToRgb(arc.color) as { r: number; g: number; b: number };
+      //-----------
+      if (
+        isNaN(arc.startLat) ||
+        isNaN(arc.startLng) ||
+        isNaN(arc.endLat) ||
+        isNaN(arc.endLng)
+      ) {
+        console.error(`Invalid arc data: ${JSON.stringify(arc)}`);
+        continue;
+      }
+      //-----------
       points.push({
         size: defaultProps.pointSize,
         order: arc.order,
