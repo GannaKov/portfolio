@@ -5,7 +5,8 @@ import { BackgroundGradientAnimation } from "./GradientBg";
 import { Globe } from "./Globe";
 import { GlobeDemo } from "./GridGlobe";
 import Lottie from "react-lottie";
-import animationData from "@/data/confetti.json";
+// import animationData from "@/data/confetti.json";
+import animationData from "@/data/lottie-confetti.json";
 import { useState } from "react";
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
@@ -52,11 +53,14 @@ export const BentoGridItem = ({
   const rightLists = ["MongoDB", "SQL", "React Native"];
 
   const [copied, setCopied] = useState(false);
-
+  console.log("copied", copied);
   const handleCopy = () => {
     const text = "zlatta2000@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
+    setTimeout(() => {
+      setCopied(false);
+    }, 4000);
   };
   return (
     <div
@@ -114,7 +118,7 @@ export const BentoGridItem = ({
           >
             {title}
           </div>
-          {id === 2 && <GlobeDemo />}
+          {/* {id === 2 && <GlobeDemo />} */}
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
               {/* lg:gap-8 */}
@@ -157,13 +161,15 @@ export const BentoGridItem = ({
               >
                 <Lottie
                   options={{
-                    loop: copied,
-                    autoplay: copied,
+                    loop: true,
+                    autoplay: true,
                     animationData: animationData,
                     rendererSettings: {
                       preserveAspectRatio: "xMidYMid slice",
                     },
                   }}
+                  height={200}
+                  width={400}
                 />
               </div>
               <MagicButton
