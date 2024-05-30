@@ -8,6 +8,7 @@ import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { navItems } from "@/data";
 import Image from "next/image";
 import { FaHome } from "react-icons/fa";
+import Plans from "@/components/Plans";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         <RecentProjects />
         <Experience />
         {/* <Approach /> */}
+        <Plans />
         <Footer />
       </div>
     </main>
