@@ -9,6 +9,7 @@ import { navItems } from "@/data";
 import Image from "next/image";
 import { FaHome } from "react-icons/fa";
 import Plans from "@/components/Plans";
+import { ModeToggle } from "@/components/ui/ModeToggle";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         </div>
         {/* end mask */}
         <FloatingNav navItems={navItems} />
+        <ModeToggle />
         <Hero />
         <Grid />
         <RecentProjects />
