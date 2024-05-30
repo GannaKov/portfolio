@@ -3,7 +3,7 @@ import { myPlans } from "@/data";
 
 const Plans = () => {
   return (
-    <div className="pt-40 relative" id="plans">
+    <div className="pt-40 pb-40 relative " id="plans">
       <h1 className=" heading  text-blue-100 mb-16">
         Skills I aim &nbsp;
         <span className="text-purple">to acquire next</span>
