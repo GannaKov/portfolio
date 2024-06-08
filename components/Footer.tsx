@@ -21,7 +21,7 @@ const Footer = () => {
   };
   return (
     <footer
-      className=" relative w-full pt-20 pb-4 border-t border-slate-600 bg-black-100"
+      className=" relative w-full pt-20 md:pb-12 pb-[100px]  border-t border-slate-600 bg-black-100"
       id="contact"
     >
       {/* absolute left-0 -bottom-72 min-h-96*/}
@@ -48,7 +48,7 @@ const Footer = () => {
             position="right"
           />
         </a>
-        <p className="text-white mt-4 text-center">or</p>
+        <p className="text-white mt-8 text-center">or</p>
         <MagicButton
           title={copied ? "Email is Copied!" : "Copy my email address"}
           icon={<IoCopyOutline />}
