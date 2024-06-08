@@ -4,7 +4,7 @@ import { Button } from "./ui/MovingBorder";
 
 const Experience = () => {
   return (
-    <div className="pt-40 relative" id="experience">
+    <section className="pt-40 sm:px-10 px-5 relative" id="experience">
       {/* heading */}
       <h1 className=" heading  text-blue-100 mb-16">
         My&nbsp;
@@ -46,7 +46,7 @@ const Experience = () => {
           </Button>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

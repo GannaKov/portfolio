@@ -1,7 +1,7 @@
 import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
-import Grid from "@/components/Grid";
+import About from "@/components/About";
 import Hero from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
@@ -13,8 +13,10 @@ import { ModeToggle } from "@/components/ui/ModeToggle";
 
 export default function Home() {
   return (
-    <main className="relative bg-black-100 flex justify-center items-center flex-col mx-auto sm:px-10 px-5 overflow-clip">
-      <div className="max-w-7xl w-full">
+    // sm:px-10 px-5
+    <main className="relative bg-black-100 flex justify-center items-center flex-col mx-auto overflow-clip">
+      {/* max-w-7xl */}
+      <div className=" w-full">
         {/* mask */}
         <div className="h-full w-full dark:bg-black-100 bg-white  dark:bg-grid-white/[0.05] bg-grid-black/[0.1] absolute top-0 left-0 flex items-center justify-center">
           <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] " />
@@ -23,7 +25,7 @@ export default function Home() {
         <FloatingNav navItems={navItems} />
         <ModeToggle />
         <Hero />
-        <Grid />
+        <About />
         <RecentProjects />
         <Experience />
         {/* <Approach /> */}

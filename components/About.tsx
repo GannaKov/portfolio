@@ -2,9 +2,9 @@ import React from "react";
 import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
 import { gridItems } from "@/data";
 
-const Grid = () => {
+const About = () => {
   return (
-    <section id="about">
+    <section id="about" className="sm:px-10 px-5 pt-40 ">
       <BentoGrid>
         {gridItems.map(
           ({
@@ -35,4 +35,4 @@ const Grid = () => {
   );
 };
 
-export default Grid;
+export default About;
