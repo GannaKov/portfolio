@@ -7,6 +7,9 @@
     --background: 0 0% 100%;
     --foreground: 240 10% 3.9%;
 
+    --spotlight-fill-dark: white;
+    --spotlight-fill-light: #f27bbcd2;
+
     --card: 0 0% 100%;
     --card-foreground: 240 10% 3.9%;
 
@@ -38,6 +41,8 @@
   .dark {
     --background: 240 10% 3.9%;
     --foreground: 0 0% 98%;
+
+    --spotlight-fill: var(--spotlight-fill-dark);
 
     --card: 240 10% 3.9%;
     --card-foreground: 0 0% 98%;
