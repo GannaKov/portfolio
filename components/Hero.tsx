@@ -34,15 +34,22 @@ const Hero = () => {
       {/* ------ my-20- */}
       <div className="flex justify-center relative  z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <h2 className="uppercase tracking-widest text-xs text-center dark:text-blue-100 max-w-80 ">
-            Dynamic Web Magic with Next.js
+          {/* max-w-80 */}
+          <h2 className="tracking-widest text-lg text-center dark:text-blue-100 ">
+            JavaScript | React | Node.js Enthusiast
           </h2>
+          {/* <p className="text-xl mb-2">
+            JavaScript | React | Node.js Enthusiast
+          </p> */}
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl text-blue-100 mb-4"
-            words="Transforming Concepts into Seamless User Experiences"
+            words="Creating Dynamic Websites is My Passion"
           />
+          {/* <p className="text-xl mb-2">
+            JavaScript | React | Node.js Enthusiast
+          </p> */}
           <p className="text-center mb-16 md:tracking-wider text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Ganna, a Full-Stack Developer
+            Hi! I&apos;m Ganna, an Aspiring Web Developer
           </p>
           <a href="#about">
             {" "}
