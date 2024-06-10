@@ -8,7 +8,6 @@ import { useTheme } from "next-themes";
 
 const Hero = () => {
   const { theme, setTheme } = useTheme();
-  console.log("theme", typeof theme);
 
   const fillColor =
     theme === "dark"
