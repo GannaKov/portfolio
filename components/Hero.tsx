@@ -35,7 +35,7 @@ const Hero = () => {
       <div className="flex justify-center relative  z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           {/* max-w-80 */}
-          <h2 className="tracking-widest text-lg text-center dark:text-blue-100 ">
+          <h2 className="mb-4 tracking-widest text-lg text-center dark:text-blue-100 ">
             JavaScript | React | Node.js Enthusiast
           </h2>
           {/* <p className="text-xl mb-2">

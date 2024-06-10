@@ -18,7 +18,7 @@ const About = () => {
             spareImg,
           }) => (
             <BentoGridItem
-              key={id} // Add a conditional check to ensure 'item' is not undefined
+              key={id}
               id={id}
               title={title}
               description={description}
