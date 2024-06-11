@@ -9,9 +9,11 @@ const RecentProjects = () => {
   return (
     <section className="pt-40 relative sm:px-10 px-5" id="projects">
       {/* heading */}
-      <h1 className=" heading  text-blue-100 mb-16">
+      <h1 className=" heading text-black dark:text-blue-100 mb-16">
         A small selection of&nbsp;
-        <span className="text-purple">recent projects</span>
+        <span className="text-purple-200 dark:text-purple-100">
+          recent projects
+        </span>
       </h1>
       {/* gap-y-8 mt-10*/}
       <div
@@ -62,7 +64,7 @@ const RecentProjects = () => {
                   ))}
                 </div>
                 <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                  <p className="flex lg:text-xl md:text-xs text-sm text-white">
                     Check Live Site
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
