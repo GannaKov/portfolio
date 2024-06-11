@@ -104,10 +104,10 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/travel1.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    title: "Developer's Portfolio",
+    des: "A creative and interactive portfolio website designed to showcase my professional skills and experiences in web development",
+    img: "/portfolio2.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://ui.shadcn.com/docs/dark-mode/next",
   },
 ];
