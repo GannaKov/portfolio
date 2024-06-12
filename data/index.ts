@@ -96,10 +96,10 @@ export const projects = [
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Snap & Share: A React Native Photo App",
+    des: "A mobile app created with React Native that lets users snap photos, tag locations automatically, and share with others who can like and comment on posts.",
     img: "/Travel2.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/firebase.svg"],
     link: "/ui.aiimg.com",
   },
   {
