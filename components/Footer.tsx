@@ -41,20 +41,23 @@ const Footer = () => {
           Feel free to reach out to me on LinkedIn or email. You can also find
           my GitHub link below to explore my projects.
         </p>
-        <a href="mailto:zlatta2000@gmail.com">
+
+        <a href="mailto:zlatta2000@gmail.com" className="pb-8 pt-4">
+          {/* hover:bg-black dark:hover:bg-black */}
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
             position="right"
-            otherClasses=" mb-8"
+            otherClasses=" !text-white !bg-slate-950 "
           />
         </a>
-        <p className="text-white text-center">or</p>
+        <p className="text-white text-center ">or</p>
         <MagicButton
           title={copied ? "Email is Copied!" : "Copy my email address"}
           icon={<IoCopyOutline />}
           handleClick={handleCopy}
           position="right"
+          otherClasses=" !text-white !bg-slate-950  !hover:bg-black  !dark:hover:bg-black"
         />
       </div>
       {/* md:flex-row-reverse */}
