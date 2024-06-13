@@ -115,31 +115,40 @@ export const projects = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Full Stack Web and App Development course",
+    desc1: "WBS CODING SCHOOL, Berlin, Germany ( 11/2023 - 05/2024)",
+    desc2:
+      "Project-based learning with a focus on team-oriented and agile methods. Completed numerous coding exercises, including a final individual project, and participated in pair programming tasks.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    title: "Full Stack Developer course",
+    desc1: "GoIT, Ukraine ( 05/2022 - 04/2023)",
+    desc2:
+      "Engaged in extensive project-based learning with an emphasis on team collaboration and agile methodologies. Contributed to large-scale team projects, including a comprehensive final project, and completed various individual assignments.",
+    className: "md:col-span-2",
+    thumbnail: "/exp4.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Business Owner",
+    desc1: "Ukraine ( until 24.02.2022)",
+    desc2:
+      "Managed and grew a successful business, overseeing all aspects including operations, finance, and marketing. Developed strong project management and problem-solving skills. Led a team, fostering collaboration and effective communication.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Chief Sales Manager",
+    desc1: "LLC 'Triton', Kharkiv, Ukraine",
+    desc2:
+      "Led a sales department, negotiating with clients and suppliers. Managed financial and inventory records. Supervised staff, ensuring effective team performance and customer satisfaction.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+
+    thumbnail: "/exp2.svg",
   },
 ];
 export const socialMedia = [
@@ -158,21 +167,23 @@ export const socialMedia = [
 
 export const myPlans = [
   {
-    title: "Stripe",
+    title: "TypeScript",
     description:
-      "A technology company that builds economic infrastructure for the internet.",
-    link: "https://stripe.com",
+      "Enhancing my JavaScript skills with TypeScript to write more reliable and maintainable code.",
   },
   {
-    title: "Netflix",
+    title: "Vue.js",
     description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
-    link: "https://netflix.com",
+      "Exploring Vue.js to expand my front-end development expertise.",
   },
   {
-    title: "Google",
+    title: "Integrating AI/LLM into Web Applications",
     description:
-      "A multinational technology company that specializes in Internet-related services and products.",
-    link: "https://google.com",
+      "Learning how to integrate artificial intelligence, specifically large language models (LLMs), into web applications to create smarter and more interactive user experiences.",
+  },
+  {
+    title: "AWS (Amazon Web Services)",
+    description:
+      "Gaining proficiency in AWS to manage and deploy scalable web applications and services.",
   },
 ];

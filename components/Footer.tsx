@@ -34,7 +34,7 @@ const Footer = () => {
       </div> */}
       <div className=" relative flex flex-col items-center">
         {/* lg:max-w-[45vw] */}
-        <h1 className="heading ">
+        <h1 className="heading text-blue-100 ">
           Open to <span className="text-purple">New Opportunities</span>{" "}
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
@@ -46,9 +46,10 @@ const Footer = () => {
             title="Let's get in touch"
             icon={<FaLocationArrow />}
             position="right"
+            otherClasses=" mb-8"
           />
         </a>
-        <p className="text-white mt-8 text-center">or</p>
+        <p className="text-white text-center">or</p>
         <MagicButton
           title={copied ? "Email is Copied!" : "Copy my email address"}
           icon={<IoCopyOutline />}
