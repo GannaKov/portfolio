@@ -29,7 +29,7 @@ export const HoverEffect = ({
       {items.map((item, idx) => (
         <div
           key={item?.title}
-          className="relative group  block p-2 h-full w-full"
+          className="relative group  block p-2 h-[282px] w-full"
           onMouseEnter={() => setHoveredIndex(idx)}
           onMouseLeave={() => setHoveredIndex(null)}
         >
@@ -75,8 +75,10 @@ export const Card = ({
       )}
     >
       <img src="/bg.png" alt="bgimg" className="absolute top-0 left-0" />
-      <div className="relative z-50">
-        <div className="p-4">{children}</div>
+      <div className="relative z-50 h-full">
+        <div className="p-4 grid grid-cols-[1fr] grid-rows-[3fr,3fr] h-full">
+          {children}
+        </div>
       </div>
     </div>
   );
@@ -104,7 +106,7 @@ export const CardDescription = ({
   return (
     <p
       className={cn(
-        "mt-8 text-white-100 tracking-wide leading-relaxed text-sm",
+        " text-white-100 tracking-wide leading-relaxed text-sm",
         className
       )}
     >
