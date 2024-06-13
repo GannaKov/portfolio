@@ -22,14 +22,15 @@ export const HoverEffect = ({
     <div
       className={cn(
         //   py-10
-        "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-4 ",
+        // "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-4 ",
+        "flex flex-wrap gap-4 justify-center items-center",
         className
       )}
     >
       {items.map((item, idx) => (
         <div
           key={item?.title}
-          className="relative group  block p-2 h-[282px] w-full"
+          className="relative group  block p-2 h-[282px] w-[312px]"
           onMouseEnter={() => setHoveredIndex(idx)}
           onMouseLeave={() => setHoveredIndex(null)}
         >
