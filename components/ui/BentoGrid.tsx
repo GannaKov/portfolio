@@ -21,7 +21,7 @@ export const BentoGrid = ({
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-4 lg:gap-8 mx-auto",
+        "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-8 mx-auto",
         className
       )}
     >
@@ -122,7 +122,7 @@ export const BentoGridItem = ({
           >
             {title}
           </div>
-          {/* {id === 2 && <GlobeDemo />} */}
+          {id === 2 && <GlobeDemo />}
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
               {/* lg:gap-8 */}

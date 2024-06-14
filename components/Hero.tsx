@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
 import MagicButton from "./ui/MagicButton";
@@ -8,11 +8,19 @@ import { useTheme } from "next-themes";
 
 const Hero = () => {
   const { theme, setTheme } = useTheme();
+  const [fillColor, setFillColor] = useState("var(--spotlight-fill-light)");
 
-  const fillColor =
-    theme === "dark"
-      ? "var(--spotlight-fill-dark)"
-      : "var(--spotlight-fill-light";
+  useEffect(() => {
+    const newFillColor =
+      theme === "dark"
+        ? "var(--spotlight-fill-dark)"
+        : "var(--spotlight-fill-light)";
+    setFillColor(newFillColor);
+  }, [theme]);
+  // const fillColor =
+  //   theme === "dark"
+  //     ? "var(--spotlight-fill-dark)"
+  //     : "var(--spotlight-fill-light";
   return (
     <div className=" pt-40">
       <div>

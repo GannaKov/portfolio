@@ -42,7 +42,7 @@ const Footer = () => {
           my GitHub link below to explore my projects.
         </p>
 
-        <a href="mailto:zlatta2000@gmail.com" className="pb-8 pt-4">
+        <a href="mailto:zlatta2000@gmail.com" className="pb-8 pt-4 w-[239px]">
           {/* hover:bg-black dark:hover:bg-black */}
           <MagicButton
             title="Let's get in touch"
@@ -52,13 +52,15 @@ const Footer = () => {
           />
         </a>
         <p className="text-white text-center ">or</p>
-        <MagicButton
-          title={copied ? "Email is Copied!" : "Copy my email address"}
-          icon={<IoCopyOutline />}
-          handleClick={handleCopy}
-          position="right"
-          otherClasses=" !text-white !bg-slate-950  !hover:bg-black  !dark:hover:bg-black"
-        />
+        <div className="w-[239px]">
+          <MagicButton
+            title={copied ? "Email is Copied!" : "Copy my email address"}
+            icon={<IoCopyOutline />}
+            handleClick={handleCopy}
+            position="right"
+            otherClasses=" !text-white !bg-slate-950  !hover:bg-black  !dark:hover:bg-black"
+          />
+        </div>
       </div>
       {/* md:flex-row-reverse */}
       <div className="flex mt-8  flex-col justify-between items-center">
