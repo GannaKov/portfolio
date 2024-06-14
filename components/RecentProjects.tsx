@@ -17,7 +17,7 @@ const RecentProjects = () => {
       </h1>
       {/* gap-y-8 mt-10*/}
       <div
-        className="flex flex-wrap items-center justify-center px-4 py-0 md:py-36 gap-[160px]  md:gap-[360px] gap-x-24 "
+        className="flex flex-wrap items-center justify-center px-4 py-0 md:py-36 gap-y-[160px]  md:gap-y-[360px] gap-x-36 "
         // style={{ rowGap: "300px" }}
       >
         {projects.map(({ id, title, des, img, iconLists, link }) => (
