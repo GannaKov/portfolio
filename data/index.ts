@@ -90,7 +90,7 @@ export const projects = [
     id: 2,
     title: "TaskMaster Pro",
     des: "Classic To-Do List with a Not-So-Classic Twist. Сreated as a project for WBS Coding School.",
-    img: "/todoTools1.png",
+    img: "/todo2.png",
     iconLists: ["/re.svg", "material-ui-1.svg"],
     link: "https://gannakov.github.io/react-to-do/",
   },
