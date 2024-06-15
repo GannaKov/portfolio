@@ -32,12 +32,12 @@ const Hero = () => {
         />
 
         <Spotlight
-          className="top-0 left-[40%] md:top-28 md:left-80 lg:left-[40%]  h-[80vh] w-[50vw]"
+          className="-top-5 left-[20%] md:top-16 md:left-80 lg:left-[40%]  h-[80vh] w-[80vw]"
           fill="blue"
         />
         {/* left-full */}
         <Spotlight
-          className="top-6  md:top-10 left-[80%]  h-[80vh] w-[50vw]"
+          className="top-6  md:top-10 left-[80%]  h-[80vh] w-[80vw]"
           fill="purple"
         />
       </div>
