@@ -25,15 +25,19 @@ const Hero = () => {
     <div className=" pt-40">
       <div>
         <Spotlight
-          className="-top-40 right-40 md:-left-32 md:-top-20 h-screen"
+          // className="-top-40 right-40 md:-left-32 md:-top-20 h-screen"
+          className="-top-32 -left-[40%] md:-left-16 md:-top-0 lg:-top-20 h-screen"
           //fill="white"
           fill={fillColor}
         />
 
-        <Spotlight className="top-28 left-80 h-[80vh] w-[50vw]" fill="blue" />
+        <Spotlight
+          className="top-0 left-[40%] md:top-28 md:left-80 lg:left-[40%]  h-[80vh] w-[50vw]"
+          fill="blue"
+        />
         {/* left-full */}
         <Spotlight
-          className="top-10 left-[80%] h-[80vh] w-[50vw]"
+          className="top-6  md:top-10 left-[80%]  h-[80vh] w-[50vw]"
           fill="purple"
         />
       </div>
