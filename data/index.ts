@@ -108,7 +108,7 @@ export const projects = [
     des: "A creative and interactive portfolio website designed to showcase my professional skills and experiences in web development",
     img: "/portfolio2.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
-    link: "https://ui.shadcn.com/docs/dark-mode/next",
+    link: "https://portfolio-ganna-kovchyk.vercel.app",
   },
   {
     id: 5,
