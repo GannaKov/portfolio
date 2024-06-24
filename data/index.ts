@@ -88,8 +88,8 @@ export const projects = [
   },
   {
     id: 2,
-    title: "TaskMaster Pro",
-    des: "Classic To-Do List with a Not-So-Classic Twist. Сreated as a project for WBS Coding School.",
+    title: "TaskMaster: A React To-Do App",
+    des: "Classic To-Do List. Сreated as a project for WBS Coding School.",
     img: "/todo2.png",
     iconLists: ["/re.svg", "material-ui-1.svg"],
     link: "https://gannakov.github.io/react-to-do/",
@@ -115,8 +115,17 @@ export const projects = [
     title: "SoYummy: A React Recipe App ",
     des: "A collaborative project. My contributions to the project included developing the HomePage, Search functionality, and Recipe Card components.",
     img: "/yummy2.png",
-    iconLists: ["/re.svg"],
+    iconLists: ["/re.svg", "redux.svg", "styled.svg"],
     link: "https://vladossid.github.io/project-fullstack-frontend/home",
+  },
+  {
+    id: 6,
+    title: "New Project",
+    des: "I am continuously striving to improve my skills, working on new projects, and learning from best practices.",
+
+    img: "/next-project2.png",
+    iconLists: ["/re.svg", "/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://github.com/GannaKov",
   },
 ];
 
