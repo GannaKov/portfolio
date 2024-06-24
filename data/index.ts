@@ -110,6 +110,14 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://ui.shadcn.com/docs/dark-mode/next",
   },
+  {
+    id: 5,
+    title: "SoYummy: A React Recipe App ",
+    des: "A collaborative project. My contributions to the project included developing the HomePage, Search functionality, and Recipe Card components.",
+    img: "/yummy2.png",
+    iconLists: ["/re.svg"],
+    link: "https://vladossid.github.io/project-fullstack-frontend/home",
+  },
 ];
 
 export const workExperience = [

@@ -24,7 +24,7 @@ const RecentProjects = () => {
           <div
             // sm:h-[41rem] h-[32rem]  lg:min-h-[32.5rem] p-8
             className="flex items-center justify-center sm:w-[470px] w-[80vw]  "
-            // className="grid grid-cols-1 grid-rows-3 items-center justify-center sm:w-[470px] w-[80vw]  "
+            //className="grid grid-cols-1 grid-rows-3 items-center justify-center sm:w-[470px] w-[80vw]  "
             key={id}
           >
             <PinContainer title={link} href={link}>
