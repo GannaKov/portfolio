@@ -98,9 +98,9 @@ export const projects = [
     id: 3,
     title: "Snap & Share: A React Native Photo App",
     des: "A mobile app created with React Native that lets users snap photos, tag locations automatically, and share with others who can like and comment on posts.",
-    img: "/Travel2.png",
+    img: "/native3.png",
     iconLists: ["/re.svg", "/firebase.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://github.com/GannaKov/goit-react-native-hw-01",
   },
   {
     id: 4,
