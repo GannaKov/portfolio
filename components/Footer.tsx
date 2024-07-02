@@ -12,7 +12,7 @@ const Footer = () => {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    const text = "zlatta2000@gmail.com";
+    const text = "gannakovchyk@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
     setTimeout(() => {
