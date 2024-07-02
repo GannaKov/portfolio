@@ -42,7 +42,7 @@ const Footer = () => {
           my GitHub link below to explore my projects.
         </p>
 
-        <a href="mailto:zlatta2000@gmail.com" className="pb-8 pt-4 w-[239px]">
+        <a href="mailto:gannakovchyk@gmail.com" className="pb-8 pt-4 w-[239px]">
           {/* hover:bg-black dark:hover:bg-black */}
           <MagicButton
             title="Let's get in touch"
