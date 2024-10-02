@@ -132,6 +132,16 @@ export const projects = [
 export const workExperience = [
   {
     id: 1,
+    title: "Full Stack Developer",
+    desc1: "Baza Trainee Ukraine, remote (Aug 2024 - Present)",
+    desc2:
+      "Developed web applications with Next.js and TypeScript, implementing UI/UX designs and optimizing performance. Collaborated with designers and QA teams to deliver fully functional applications. Integrated payment systems using both front-end and back-end technologies",
+    className: "md:col-span-2",
+
+    thumbnail: "/exp5.svg",
+  },
+  {
+    id: 2,
     title: "Full Stack Web and App Development course",
     desc1: "WBS CODING SCHOOL, Berlin, Germany ( 11/2023 - 05/2024)",
     desc2:
@@ -140,7 +150,7 @@ export const workExperience = [
     thumbnail: "/exp1.svg",
   },
   {
-    id: 2,
+    id: 3,
     title: "Full Stack Developer course",
     desc1: "GoIT, Ukraine ( 05/2022 - 04/2023)",
     desc2:
@@ -149,7 +159,7 @@ export const workExperience = [
     thumbnail: "/exp4.svg",
   },
   {
-    id: 3,
+    id: 4,
     title: "Business Owner",
     desc1: "Ukraine ( until 24.02.2022)",
     desc2:
@@ -158,7 +168,7 @@ export const workExperience = [
     thumbnail: "/exp3.svg",
   },
   {
-    id: 4,
+    id: 5,
     title: "Chief Sales Manager",
     desc1: "LLC 'Triton', Kharkiv, Ukraine",
     desc2:

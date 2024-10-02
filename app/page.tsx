@@ -1,4 +1,3 @@
-// import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import About from "@/components/About";
@@ -6,7 +5,6 @@ import Hero from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { navItems } from "@/data";
-import Image from "next/image";
 
 import Plans from "@/components/Plans";
 import { ModeToggle } from "@/components/ui/ModeToggle";
@@ -26,7 +24,7 @@ export default function Home() {
         <About />
         <RecentProjects />
         <Experience />
-        {/* <Approach /> */}
+
         <Plans />
         <Footer />
       </div>
