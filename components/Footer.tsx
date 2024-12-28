@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
     >
       <div className=" relative flex flex-col items-center">
         <h1 className="heading text-blue-100 ">
-          Open to <span className="text-purple">New Opportunities</span>{" "}
+          Open to <span className="text-purple-100 ">New Opportunities</span>{" "}
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Feel free to reach out to me on LinkedIn or email. You can also find
@@ -38,7 +38,8 @@ const Footer: React.FC = () => {
             title="Let's get in touch"
             icon={<FaLocationArrow />}
             position="right"
-            otherClasses=" !text-white !bg-slate-950 "
+            // otherClasses=" !text-white !bg-slate-950 "
+            colorBtn="dark"
           />
         </a>
         <p className="text-white text-center ">or</p>
@@ -48,7 +49,8 @@ const Footer: React.FC = () => {
             icon={<IoCopyOutline />}
             handleClick={handleCopy}
             position="right"
-            otherClasses=" !text-white !bg-slate-950  !hover:bg-black  !dark:hover:bg-black"
+            colorBtn="dark"
+            // otherClasses=" !text-white !bg-slate-950  !hover:bg-black  !dark:hover:bg-black"
           />
         </div>
       </div>
@@ -56,7 +58,7 @@ const Footer: React.FC = () => {
       <div className="flex mt-8  flex-col justify-between items-center">
         <div className="flex items-center mb-8 gap-8">
           <a
-            className="flex justify-center items-center pointer rounded-full w-[35px] h-[35px] text-black-100 bg-white  hover:text-white hover:bg-black border border-white transition-colors duration-200"
+            className=" flex justify-center items-center pointer rounded-full w-[35px] h-[35px] text-white bg-[rgba(12,14,35,1)]  hover:text-[rgba(12,14,35,1)]  hover:bg-white border border-white transition-colors duration-300"
             href="https://www.linkedin.com/in/ganna-kovchyk/"
             target="_blank"
             rel="noreferrer"
@@ -65,7 +67,7 @@ const Footer: React.FC = () => {
           </a>
 
           <a
-            className="flex justify-center items-center pointer rounded-full w-[35px] h-[35px] text-black-100 bg-white  hover:text-white hover:bg-black border border-white transition-colors duration-200"
+            className="flex justify-center items-center pointer rounded-full w-[35px] h-[35px] text-[rgba(12,14,35,1)]  bg-white hover:text-white hover:bg-[rgba(12,14,35,1)]  border border-white transition-colors duration-300"
             href="https://github.com/GannaKov"
             target="_blank"
             rel="noreferrer"
@@ -74,7 +76,7 @@ const Footer: React.FC = () => {
           </a>
         </div>
         <p className="md:text-base text-xs md:font-normal text-white-200 font-light">
-          Copyright © 2024 Ganna Kovchyk
+          2024 Ganna Kovchyk
         </p>
       </div>
     </footer>

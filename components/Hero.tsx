@@ -56,6 +56,7 @@ const Hero: React.FC = () => {
               title="Show my work"
               icon={<FaLocationArrow />}
               position="right"
+              colorBtn="regular"
             />
           </a>
         </div>
