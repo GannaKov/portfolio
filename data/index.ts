@@ -13,7 +13,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/gridItems/b1.svg",
     spareImg: "",
   },
   {
@@ -23,7 +23,7 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "/globe1.jpg",
+    img: "/gridItems/globe1.jpg",
     spareImg: "",
   },
   {
@@ -43,8 +43,8 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "/grid.svg",
-    spareImg: "/b4.svg",
+    img: "/gridItems/grid.svg",
+    spareImg: "/gridItems/b4.svg",
   },
 
   {
@@ -55,8 +55,8 @@ export const gridItems = [
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start ",
-    img: "/b5.svg",
-    spareImg: "/grid.svg",
+    img: "/gridItems/b5.svg",
+    spareImg: "/gridItems/grid.svg",
   },
   {
     id: 6,
@@ -75,22 +75,31 @@ export const projects = [
     id: 1,
     title: "Everything can move",
     des: "In progress... This is a bold and thrilling team project featuring stunning animations and a unique concept: two completely different designs with a Switch button.",
-    img: "/freepik3.png",
-    iconLists: ["/re.svg", "/next.svg", "/tail.svg", "/ts.svg"],
+    img: "/projects/freepik3.png",
+    iconLists: [
+      "/techIcons/re.svg",
+      "/techIcons/next.svg",
+      "/techIcons/tail.svg",
+      "/techIcons/ts.svg",
+      "/techIcons/framer-motion.svg",
+      "/techIcons/three-js.svg",
+      "/techIcons/vercel.svg",
+    ],
     link: "https://baza-everything-can-move.vercel.app/",
   },
   {
     id: 2,
     title: "Travel Scratchpad",
     des: "This is the initial version of a travel-focused social network, created as a final project at WBS Coding School.",
-    img: "/travel1.png",
+    img: "/projects/travel1.png",
     iconLists: [
-      "/re.svg",
-      "/nodejs-icon.svg",
-      "/cloudinary.svg",
-      "/chatgpt-icon.svg",
-      "/google-maps.svg",
-      "/mongodb-icon-2.svg",
+      "/techIcons/re.svg",
+      "/techIcons/nodejs-icon.svg",
+      "/techIcons/cloudinary.svg",
+      "/techIcons/chatgpt-icon.svg",
+      "/techIcons/google-maps.svg",
+      "/techIcons/mongodb-icon-2.svg",
+      "/techIcons/vercel.svg",
     ],
     link: "https://travel-scratchpad.vercel.app/",
   },
@@ -106,24 +115,32 @@ export const projects = [
     id: 3,
     title: "Snap & Share: A React Native Photo App",
     des: "A mobile app created with React Native that lets users snap photos, tag locations automatically, and share with others who can like and comment on posts.",
-    img: "/native3.png",
-    iconLists: ["/re.svg", "/firebase.svg"],
+    img: "/projects/native3.png",
+    iconLists: ["/techIcons/re.svg", "/techIcons/firebase.svg"],
     link: "https://github.com/GannaKov/goit-react-native-hw-01",
   },
   {
     id: 4,
     title: "Developer's Portfolio",
     des: "A creative and interactive portfolio website designed to showcase my professional skills and experiences in web development",
-    img: "/portfolio2.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    img: "/projects/portfolio2.png",
+    iconLists: [
+      "/techIcons/next.svg",
+      "/techIcons/tail.svg",
+      "/techIcons/ts.svg",
+    ],
     link: "https://portfolio-ganna-kovchyk.vercel.app",
   },
   {
     id: 5,
     title: "SoYummy: A React Recipe App ",
     des: "A collaborative project. My contributions to the project included developing the HomePage, Search functionality, and Recipe Card components.",
-    img: "/yummy2.png",
-    iconLists: ["/re.svg", "redux.svg", "styled.svg"],
+    img: "/projects/yummy2.png",
+    iconLists: [
+      "/techIcons/re.svg",
+      "/techIcons/redux.svg",
+      "/techIcons/styled.svg",
+    ],
     link: "https://vladossid.github.io/project-fullstack-frontend/home",
   },
   {
@@ -131,8 +148,13 @@ export const projects = [
     title: "New Project",
     des: "I am continuously striving to improve my skills, working on new projects, and learning from best practices.",
 
-    img: "/next-project2.png",
-    iconLists: ["/re.svg", "/next.svg", "/tail.svg", "/ts.svg"],
+    img: "/projects/next-project2.png",
+    iconLists: [
+      "/techIcons/re.svg",
+      "/techIcons/next.svg",
+      "/techIcons/tail.svg",
+      "/techIcons/ts.svg",
+    ],
     link: "https://github.com/GannaKov",
   },
 ];
@@ -146,7 +168,7 @@ export const workExperience = [
       "Developed web applications with Next.js and TypeScript, implementing UI/UX designs and optimizing performance. Collaborated with designers and QA teams to deliver fully functional applications. Integrated payment systems using both front-end and back-end technologies",
     className: "md:col-span-2",
 
-    thumbnail: "/exp5.svg",
+    thumbnail: "/experience/exp5.svg",
   },
   {
     id: 2,
@@ -155,7 +177,7 @@ export const workExperience = [
     desc2:
       "Project-based learning with a focus on team-oriented and agile methods. Completed numerous coding exercises, including a final individual project, and participated in pair programming tasks.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/experience/exp1.svg",
   },
   {
     id: 3,
@@ -164,7 +186,7 @@ export const workExperience = [
     desc2:
       "Engaged in extensive project-based learning with an emphasis on team collaboration and agile methodologies. Contributed to large-scale team projects, including a comprehensive final project, and completed various individual assignments.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/experience/exp4.svg",
   },
   {
     id: 4,
@@ -173,7 +195,7 @@ export const workExperience = [
     desc2:
       "Managed and grew a successful business, overseeing all aspects including operations, finance, and marketing. Developed strong project management and problem-solving skills. Led a team, fostering collaboration and effective communication.",
     className: "md:col-span-2",
-    thumbnail: "/exp3.svg",
+    thumbnail: "/experience/exp3.svg",
   },
   {
     id: 5,
@@ -183,19 +205,19 @@ export const workExperience = [
       "Led a sales department, negotiating with clients and suppliers. Managed financial and inventory records. Supervised staff, ensuring effective team performance and customer satisfaction.",
     className: "md:col-span-2",
 
-    thumbnail: "/exp2.svg",
+    thumbnail: "/experience/exp2.svg",
   },
 ];
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "/socialMedia/git.svg",
     link: "https://github.com/GannaKov",
   },
 
   {
     id: 3,
-    img: "/link.svg",
+    img: "/socialMedia/link.svg",
     link: "https://www.linkedin.com/in/ganna-kovchyk/",
   },
 ];

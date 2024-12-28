@@ -1,8 +1,8 @@
 "use client";
 import { FaLocationArrow } from "react-icons/fa";
 import MagicButton from "./ui/MagicButton";
-import { socialMedia } from "@/data";
-import { FaLinkedin } from "react-icons/fa";
+//import { socialMedia } from "@/data";
+
 import { LuLinkedin } from "react-icons/lu";
 import { FaSquareGithub } from "react-icons/fa6";
 import { useState } from "react";
@@ -24,16 +24,7 @@ const Footer: React.FC = () => {
       className=" relative w-full pt-20 md:pb-12 pb-[100px]  border-t border-slate-600 bg-black-100"
       id="contact"
     >
-      {/* absolute left-0 -bottom-72 min-h-96*/}
-      {/* <div className=" relative  w-full ">
-        <img
-          src="/footer-grid.svg"
-          alt="grid"
-          className="w-full h-full opacity-50 "
-        />
-      </div> */}
       <div className=" relative flex flex-col items-center">
-        {/* lg:max-w-[45vw] */}
         <h1 className="heading text-blue-100 ">
           Open to <span className="text-purple">New Opportunities</span>{" "}
         </h1>
@@ -43,7 +34,6 @@ const Footer: React.FC = () => {
         </p>
 
         <a href="mailto:gannakovchyk@gmail.com" className="pb-8 pt-4 w-[239px]">
-          {/* hover:bg-black dark:hover:bg-black */}
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
@@ -62,26 +52,20 @@ const Footer: React.FC = () => {
           />
         </div>
       </div>
-      {/* md:flex-row-reverse */}
-      <div className="flex mt-8  flex-col justify-between items-center">
-        {/* md:mb-0 */}
-        <div className="flex items-center mb-8 gap-8">
-          {/* "text-black bg-white " */}
 
+      <div className="flex mt-8  flex-col justify-between items-center">
+        <div className="flex items-center mb-8 gap-8">
           <a
-            className="flex justify-center items-center pointer rounded-full w-[35px] h-[35px] text-black-100 bg-white  hover:text-white hover:bg-black border border-white"
+            className="flex justify-center items-center pointer rounded-full w-[35px] h-[35px] text-black-100 bg-white  hover:text-white hover:bg-black border border-white transition-colors duration-200"
             href="https://www.linkedin.com/in/ganna-kovchyk/"
             target="_blank"
             rel="noreferrer"
           >
-            <LuLinkedin
-              className="w-[22px] h-[22px] "
-              //  hover:fill-current  style={{ width: 25, height: 25 }}
-            />
+            <LuLinkedin className="w-[22px] h-[22px] " />
           </a>
 
           <a
-            className="flex justify-center items-center pointer rounded-full w-[35px] h-[35px] text-black-100 bg-white  hover:text-white hover:bg-black border border-white"
+            className="flex justify-center items-center pointer rounded-full w-[35px] h-[35px] text-black-100 bg-white  hover:text-white hover:bg-black border border-white transition-colors duration-200"
             href="https://github.com/GannaKov"
             target="_blank"
             rel="noreferrer"
