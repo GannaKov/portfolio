@@ -1,7 +1,7 @@
 import { HoverEffect } from "./ui/CardHoverEffect";
 import { myPlans } from "@/data";
 
-const Plans = () => {
+const Plans: React.FC = () => {
   return (
     <section className="pt-40 pb-40 sm:px-10 px-5 relative " id="plans">
       <h1 className=" heading  text-black dark:text-blue-100 mb-16">

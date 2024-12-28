@@ -2,7 +2,7 @@
 import { workExperience } from "@/data";
 import { Button } from "./ui/MovingBorder";
 
-const Experience = () => {
+const Experience: React.FC = () => {
   return (
     <section className="pt-40 sm:px-10 px-5 relative" id="experience">
       {/* heading */}

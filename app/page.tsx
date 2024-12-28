@@ -1,17 +1,19 @@
+import React from "react";
+
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import About from "@/components/About";
 import Hero from "@/components/Hero";
+import Plans from "@/components/Plans";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { navItems } from "@/data";
 
-import Plans from "@/components/Plans";
 import { ModeToggle } from "@/components/ui/ModeToggle";
 
-export default function Home() {
+const Home = (): JSX.Element => {
   return (
-    <main className="relative bg-black-100 flex justify-center items-center flex-col mx-auto overflow-clip">
+    <div className="relative bg-black-100 flex justify-center items-center flex-col mx-auto overflow-clip">
       <div className=" w-full">
         {/* mask bg-grid-purple-200/[0.1]*/}
         <div className="h-full w-full dark:bg-black-100 bg-white  dark:bg-grid-white/[0.05] bg-grid-purple-200/[0.1]  absolute top-0 left-0 flex items-center justify-center">
@@ -20,14 +22,18 @@ export default function Home() {
         {/* end mask */}
         <FloatingNav navItems={navItems} />
         <ModeToggle />
-        <Hero />
-        <About />
-        <RecentProjects />
-        <Experience />
+        <main>
+         
+          <Hero />
+          <About />
+          <RecentProjects />
+          <Experience />
+          <Plans />
+        </main>
 
-        <Plans />
         <Footer />
       </div>
-    </main>
+    </div>
   );
-}
+};
+export default Home;

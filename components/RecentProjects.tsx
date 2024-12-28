@@ -4,8 +4,7 @@ import React from "react";
 import { PinContainer } from "./ui/Pin";
 import { FaLocationArrow } from "react-icons/fa";
 
-const RecentProjects = () => {
-  // <RecentProjects />;
+const RecentProjects: React.FC = () => {
   return (
     <section className="pt-40 relative sm:px-10 px-5" id="projects">
       {/* heading */}
@@ -15,24 +14,18 @@ const RecentProjects = () => {
           recent projects
         </span>
       </h1>
-      {/* gap-y-8 mt-10*/}
-      <div
-        className="flex flex-wrap items-center justify-center px-4 py-0 md:py-36 gap-y-[160px]  md:gap-y-[360px] gap-x-36 "
-        // style={{ rowGap: "300px" }}
-      >
+
+      <div className="flex flex-wrap items-center justify-center px-4 py-0 md:py-36 gap-y-[160px]  md:gap-y-[360px] gap-x-36 ">
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <div
-            // sm:h-[41rem] h-[32rem]  lg:min-h-[32.5rem] p-8
             className="flex items-center justify-center sm:w-[470px] w-[80vw]  "
-            //className="grid grid-cols-1 grid-rows-3 items-center justify-center sm:w-[470px] w-[80vw]  "
             key={id}
           >
             <PinContainer title={link} href={link}>
               <div className="grid grid-cols-[1fr] grid-rows-[3fr,1.5fr,1fr]">
-                {/* sm:h-[40vh] h-[30vh] */}
                 <div className="relative flex items-center justify-center sm:w-[470px] w-[80vw] overflow-hidden  mb-10">
                   <div
-                    className="relative w-full h-full overflow-hidden lg:rounded-3xl"
+                    className="relative w-full h-full overflow-hidden lg:rounded-3xl pt-1 pb-1"
                     style={{ backgroundColor: "#13162D" }}
                   >
                     <img src="/bg.png" alt="bgimg" />
@@ -47,7 +40,7 @@ const RecentProjects = () => {
                   <h1 className="font-bold text-white lg:text-2xl md:text-xl text-base line-clamp-1">
                     {title}
                   </h1>
-                  {/* line-clamp-2 */}
+
                   <p
                     className="lg:text-xl lg:font-normal font-light text-sm "
                     style={{
@@ -58,7 +51,7 @@ const RecentProjects = () => {
                     {des}
                   </p>
                 </div>
-                {/* mt-7 mb-3 */}
+
                 <div className="flex items-center justify-between ">
                   <div className="flex items-center">
                     {iconLists.map((icon, index) => (

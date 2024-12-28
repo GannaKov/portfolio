@@ -2,7 +2,7 @@ import React from "react";
 import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
 import { gridItems } from "@/data";
 
-const About = () => {
+const About: React.FC = () => {
   return (
     <section id="about" className="sm:px-10 px-5 pt-40 ">
       <BentoGrid>

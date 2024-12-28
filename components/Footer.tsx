@@ -8,7 +8,7 @@ import { FaSquareGithub } from "react-icons/fa6";
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 /* eslint-disable @next/next/no-img-element */
-const Footer = () => {
+const Footer: React.FC = () => {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {

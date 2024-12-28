@@ -73,6 +73,14 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Everything can move",
+    des: "In progress... This is a bold and thrilling team project featuring stunning animations and a unique concept: two completely different designs with a Switch button.",
+    img: "/freepik3.png",
+    iconLists: ["/re.svg", "/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://baza-everything-can-move.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Travel Scratchpad",
     des: "This is the initial version of a travel-focused social network, created as a final project at WBS Coding School.",
     img: "/travel1.png",
@@ -86,14 +94,14 @@ export const projects = [
     ],
     link: "https://travel-scratchpad.vercel.app/",
   },
-  {
-    id: 2,
-    title: "TaskMaster: A React To-Do App",
-    des: "Classic To-Do List. Сreated as a project for WBS Coding School.",
-    img: "/todo2.png",
-    iconLists: ["/re.svg", "material-ui-1.svg"],
-    link: "https://gannakov.github.io/react-to-do/",
-  },
+  // {
+  //   id: 2,
+  //   title: "TaskMaster: A React To-Do App",
+  //   des: "Classic To-Do List. Сreated as a project for WBS Coding School.",
+  //   img: "/todo2.png",
+  //   iconLists: ["/re.svg", "material-ui-1.svg"],
+  //   link: "https://gannakov.github.io/react-to-do/",
+  // },
   {
     id: 3,
     title: "Snap & Share: A React Native Photo App",
