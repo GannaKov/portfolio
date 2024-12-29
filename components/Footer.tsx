@@ -58,7 +58,7 @@ const Footer: React.FC = () => {
       <div className="flex mt-8  flex-col justify-between items-center">
         <div className="flex items-center mb-8 gap-8">
           <a
-            className=" flex justify-center items-center pointer rounded-full w-[35px] h-[35px] text-white bg-[rgba(12,14,35,1)]  hover:text-[rgba(12,14,35,1)]  hover:bg-white border border-white transition-colors duration-300"
+            className=" flex justify-center items-center pointer rounded-full w-[35px] h-[35px] text-white bg-[rgba(12,14,35,1)]  hover:text-[rgba(12,14,35,1)]  hover:bg-blue-100 border border-white transition-colors duration-300"
             href="https://www.linkedin.com/in/ganna-kovchyk/"
             target="_blank"
             rel="noreferrer"
@@ -67,7 +67,7 @@ const Footer: React.FC = () => {
           </a>
 
           <a
-            className="flex justify-center items-center pointer rounded-full w-[35px] h-[35px] text-[rgba(12,14,35,1)]  bg-white hover:text-white hover:bg-[rgba(12,14,35,1)]  border border-white transition-colors duration-300"
+            className="flex justify-center items-center pointer rounded-full w-[35px] h-[35px] text-white bg-[rgba(12,14,35,1)]  hover:text-[rgba(12,14,35,1)]  hover:bg-blue-100 border border-white transition-colors duration-300"
             href="https://github.com/GannaKov"
             target="_blank"
             rel="noreferrer"
