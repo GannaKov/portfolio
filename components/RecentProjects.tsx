@@ -25,7 +25,7 @@ const RecentProjects: React.FC = () => {
               <div className="grid grid-cols-[1fr] grid-rows-[3fr,1.5fr,1fr]">
                 <div className="relative flex items-center justify-center sm:w-[470px] w-[80vw] overflow-hidden  mb-10">
                   <div
-                    className="relative w-full h-full overflow-hidden lg:rounded-3xl pt-1 pb-1"
+                    className="relative w-full h-full overflow-hidden lg:rounded-3xl "
                     style={{ backgroundColor: "#13162D" }}
                   >
                     <img src="/bg.png" alt="bgimg" />
@@ -33,7 +33,7 @@ const RecentProjects: React.FC = () => {
                   <img
                     src={img}
                     alt={title}
-                    className="z-10 absolute bottom-0"
+                    className="z-10 absolute rotate-3 scale-[0.9]"
                   />
                 </div>
                 <div>
