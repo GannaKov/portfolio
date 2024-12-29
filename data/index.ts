@@ -1,11 +1,29 @@
-export const navItems = [
+export interface navItemProps {
+  name: string;
+  link: string;
+}
+export type navItemsProps = navItemProps[];
+
+export const navItems: navItemsProps = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
+//--------------------------------
+export interface gridItemProps {
+  id: number;
+  title: string;
+  description: string;
+  className: string;
+  imgClassName: string;
+  titleClassName: string;
+  img: string;
+  spareImg: string;
+}
+export type gridItemsProps = gridItemProps[];
 
-export const gridItems = [
+export const gridItems: gridItemsProps = [
   {
     id: 1,
     title: "Collaborative & Independent Dev",
@@ -69,13 +87,24 @@ export const gridItems = [
     spareImg: "",
   },
 ];
+//---------------------------
+export interface projectProps {
+  id: number;
+  title: string;
+  des: string;
 
-export const projects = [
+  img: string;
+  iconLists: string[];
+  link: string;
+}
+export type ProjectsProps = projectProps[];
+
+export const projects: ProjectsProps = [
   {
     id: 1,
     title: "Everything can move",
     des: "In progress... This is a bold and thrilling team project featuring stunning animations and a unique concept: two completely different designs with a Switch button.",
-    //img: "/projects/freepik3.png",
+
     img: "/projects/ani5.png",
     iconLists: [
       "/techIcons/re.svg",
@@ -92,7 +121,7 @@ export const projects = [
     id: 2,
     title: "Travel Scratchpad",
     des: "This is the initial version of a travel-focused social network, created as a final project at WBS Coding School.",
-    // img: "/projects/travel1.png",
+
     img: "/projects/travel.png",
     iconLists: [
       "/techIcons/re.svg",
@@ -105,19 +134,12 @@ export const projects = [
     ],
     link: "https://travel-scratchpad.vercel.app/",
   },
-  // {
-  //   id: 2,
-  //   title: "TaskMaster: A React To-Do App",
-  //   des: "Classic To-Do List. Сreated as a project for WBS Coding School.",
-  //   img: "/todo2.png",
-  //   iconLists: ["/re.svg", "material-ui-1.svg"],
-  //   link: "https://gannakov.github.io/react-to-do/",
-  // },
+
   {
     id: 3,
     title: "Snap & Share: A React Native Photo App",
     des: "A mobile app created with React Native that lets users snap photos, tag locations automatically, and share with others who can like and comment on posts.",
-    // img: "/projects/native3.png",
+
     img: "/projects/native.png",
     iconLists: ["/techIcons/re.svg", "/techIcons/firebase.svg"],
     link: "https://github.com/GannaKov/goit-react-native-hw-01",
@@ -126,7 +148,7 @@ export const projects = [
     id: 4,
     title: "Developer's Portfolio",
     des: "A creative and interactive portfolio website designed to showcase my professional skills and experiences in web development",
-    // img: "/projects/portfolio2.png",
+
     img: "/projects/portfolio1.png",
     iconLists: [
       "/techIcons/next.svg",
@@ -139,7 +161,7 @@ export const projects = [
     id: 5,
     title: "SoYummy: A React Recipe App ",
     des: "A collaborative project. My contributions to the project included developing the HomePage, Search functionality, and Recipe Card components.",
-    // img: "/projects/yummy2.png",
+
     img: "/projects/yummy.png",
     iconLists: [
       "/techIcons/re.svg",
@@ -153,7 +175,6 @@ export const projects = [
     title: "New Project",
     des: "I am continuously striving to improve my skills, working on new projects, and learning from best practices.",
 
-    // img: "/projects/next-project2.png",
     img: "/projects/next-project.png",
     iconLists: [
       "/techIcons/re.svg",
@@ -164,8 +185,18 @@ export const projects = [
     link: "https://github.com/GannaKov",
   },
 ];
+//----------------------
+export interface workExperience {
+  id: number;
+  title: string;
+  desc1: string;
 
-export const workExperience = [
+  desc2: string;
+  className: string;
+  thumbnail: string;
+}
+export type WorkExperienceProps = workExperience[];
+export const workExperience: WorkExperienceProps = [
   {
     id: 1,
     title: "Full Stack Developer",
@@ -214,7 +245,15 @@ export const workExperience = [
     thumbnail: "/experience/exp2.svg",
   },
 ];
-export const socialMedia = [
+//-----------------
+export interface socialMedia {
+  id: number;
+  img: string;
+  link: string;
+}
+export type SocialMediaProps = socialMedia[];
+
+export const socialMedia: SocialMediaProps = [
   {
     id: 1,
     img: "/socialMedia/git.svg",
@@ -227,8 +266,14 @@ export const socialMedia = [
     link: "https://www.linkedin.com/in/ganna-kovchyk/",
   },
 ];
+//------------------------
+export interface myPlans {
+  title: string;
+  description: string;
+}
+export type MyPlansProps = myPlans[];
 
-export const myPlans = [
+export const myPlans: MyPlansProps = [
   {
     title: "TypeScript",
     description:
