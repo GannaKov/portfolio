@@ -67,15 +67,15 @@ export const PinPerspective = ({
 }) => {
   return (
     // pointer-events-none
-    <motion.div className="  w-full h-[30rem] flex items-center justify-center opacity-0 group-hover/pin:opacity-100 z-[60] transition duration-500">
+    <motion.div className="  w-full h-[30rem]  flex items-center justify-center opacity-0 group-hover/pin:opacity-100 z-[60] transition duration-500">
       <div className=" w-full h-full -mt-7 flex-none  inset-0">
         <div className="absolute top-0 inset-x-0  flex justify-center">
           <a
             href={href}
             target={"_blank"}
-            className="relative flex space-x-2 items-center z-10 rounded-full bg-[#29232f] dark:bg-zinc-950 py-4 px-6 ring-1 ring-white/10 "
+            className="relative  flex space-x-2 items-center z-10 rounded-full bg-[#29232f] dark:bg-zinc-950 py-4 px-6 ring-1 ring-white/10 "
           >
-            <span className="relative z-20 text-white text-xs font-bold inline-block py-0.5">
+            <span className="relative w-64 z-20 text-white text-xs font-bold inline-block py-0.5">
               {title}
             </span>
 
