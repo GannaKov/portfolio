@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 import { cn } from "@/utils/cn";
-import { BackgroundGradientAnimation } from "./GradientBg";
+//import { BackgroundGradientAnimation } from "./GradientBg";
 
 // import { GlobeDemo } from "./GridGlobe";
 import Lottie from "react-lottie";
@@ -69,7 +69,6 @@ export const BentoGridItem = ({
         className
       )}
       style={{
-        //background: "rgb(4,7,29)",
         background:
           "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
@@ -98,11 +97,11 @@ export const BentoGridItem = ({
             />
           )}
         </div>
-        {id === 6 && (
-          <BackgroundGradientAnimation>
-            {/* <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div> */}
-          </BackgroundGradientAnimation>
-        )}
+        {/* {id === 6 && (
+          <BackgroundGradientAnimation> */}
+
+        {/* </BackgroundGradientAnimation>
+        )} */}
 
         <div
           className={cn(
@@ -122,29 +121,20 @@ export const BentoGridItem = ({
           >
             {title}
           </div>
-          {/* {id === 2 && <GlobeDemo />} */}
-          {/* {id === 2 && (
-            <img
-              src={img}
-              className={cn(imgClassName, "object-cover, object-center")}
-              alt="bento"
-            />
-          )} */}
+
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
-              {/* lg:gap-8 */}
               <div className="flex flex-col gap-3 md:gap-3 ">
                 {leftLists.map((item, i) => (
                   <span
                     key={i}
-                    // lg:py-4
                     className="lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
                     lg:opacity-100 rounded-lg text-center bg-[#10132E]"
                   >
                     {item}
                   </span>
                 ))}
-                {/* lg:py-4 */}
+
                 <span className="lg:px-3 px-3 pt-6 rounded-lg text-center bg-[#10132E]"></span>
               </div>
               <div className="flex flex-col gap-3 md:gap-3 ">
@@ -152,14 +142,12 @@ export const BentoGridItem = ({
                 {rightLists.map((item, i) => (
                   <span
                     key={i}
-                    // lg:py-4
                     className="lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
                     lg:opacity-100 rounded-lg text-center bg-[#10132E]"
                   >
                     {item}
                   </span>
                 ))}
-                {/* lg:py-4 py-4 */}
               </div>
             </div>
           )}

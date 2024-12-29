@@ -87,10 +87,5 @@ export function ModeToggle() {
         </div>
       )}
     </div>
-    //  {/* <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" --> */}
-    // <select value={theme} onChange={(e) => setTheme(e.target.value)}>
-    //     <option value="dark">Dark</option>
-    //     <option value="light">Light</option>
-    //   </select>
   );
 }

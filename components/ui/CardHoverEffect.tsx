@@ -21,8 +21,7 @@ export const HoverEffect = ({
   return (
     <div
       className={cn(
-        //   py-10
-        // "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-4 ",
+       
         "flex flex-wrap gap-4 justify-center items-center",
         className
       )}

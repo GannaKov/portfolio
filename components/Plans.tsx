@@ -10,7 +10,7 @@ const Plans: React.FC = () => {
           to acquire next
         </span>
       </h1>
-      {/* px-8 max-w-5xl */}
+
       <div className="mx-auto ">
         <HoverEffect items={myPlans} />
       </div>

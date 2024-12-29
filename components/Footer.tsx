@@ -1,8 +1,6 @@
 "use client";
 import { FaLocationArrow } from "react-icons/fa";
 import MagicButton from "./ui/MagicButton";
-//import { socialMedia } from "@/data";
-
 import { LuLinkedin } from "react-icons/lu";
 import { FaSquareGithub } from "react-icons/fa6";
 import { useState } from "react";
@@ -38,7 +36,6 @@ const Footer: React.FC = () => {
             title="Let's get in touch"
             icon={<FaLocationArrow />}
             position="right"
-            // otherClasses=" !text-white !bg-slate-950 "
             colorBtn="dark"
           />
         </a>
@@ -50,7 +47,6 @@ const Footer: React.FC = () => {
             handleClick={handleCopy}
             position="right"
             colorBtn="dark"
-            // otherClasses=" !text-white !bg-slate-950  !hover:bg-black  !dark:hover:bg-black"
           />
         </div>
       </div>

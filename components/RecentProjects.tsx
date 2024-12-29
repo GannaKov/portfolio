@@ -7,7 +7,7 @@ import { FaLocationArrow } from "react-icons/fa";
 const RecentProjects: React.FC = () => {
   return (
     <section className="pt-40 relative sm:px-10 px-5" id="projects">
-      {/* heading */}
+   
       <h1 className=" heading text-black dark:text-blue-100 mb-16">
         A small selection of&nbsp;
         <span className="text-purple-200 dark:text-purple-100">
