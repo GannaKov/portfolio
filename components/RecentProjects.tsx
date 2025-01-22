@@ -10,22 +10,22 @@ const RecentProjects: React.FC = () => {
       className="pt-40 relative sm:px-10 px-5 max-w-[1940px] w-full"
       id="projects"
     >
-      <h1 className=" heading text-black dark:text-blue-100 mb-16">
+      <h1 className=" heading text-black dark:text-blue-100 ">
         A small selection of&nbsp;
         <span className="text-purple-200 dark:text-purple-100">
           recent projects
         </span>
       </h1>
 
-      <div className="flex flex-wrap items-center justify-center px-4 py-0 md:py-36 gap-y-[160px]  md:gap-y-[360px] gap-x-36 ">
+      <div className=" flex flex-wrap items-center justify-center py-36 md:py-36 gap-y-[260px]  md:gap-y-[360px] gap-x-16 lg:gap-x-36 ">
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <div
-            className="flex items-center justify-center sm:w-[470px] w-[80vw]  "
+            className="flex items-center justify-center w-[330px]  sm:w-[470px]   "
             key={id}
           >
             <PinContainer title={link} href={link}>
               <div className="grid grid-cols-[1fr] grid-rows-[3fr,2fr,1fr]">
-                <div className="relative flex items-center justify-center sm:w-[470px] w-[80vw] overflow-hidden  mb-10">
+                <div className="relative flex items-center justify-center sm:w-[470px] w-[330px] overflow-hidden  mb-10">
                   <div
                     className="relative w-full h-full overflow-hidden lg:rounded-3xl "
                     style={{ backgroundColor: "#13162D" }}
