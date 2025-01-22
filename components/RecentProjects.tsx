@@ -20,7 +20,7 @@ const RecentProjects: React.FC = () => {
       <div className=" flex flex-wrap items-center justify-center py-36 md:py-36 gap-y-[260px]  md:gap-y-[360px] gap-x-16 lg:gap-x-36 ">
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <div
-            className="flex items-center justify-center  sm:w-[470px]   "
+            className="flex items-center justify-center w-[330px]  sm:w-[470px]   "
             key={id}
           >
             <PinContainer title={link} href={link}>
