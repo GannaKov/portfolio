@@ -72,7 +72,7 @@ const Footer: React.FC = () => {
           </a>
         </div>
         <p className="md:text-base text-xs md:font-normal text-white-200 font-light">
-          2024 Ganna Kovchyk
+          2025 Ganna Kovchyk
         </p>
       </div>
     </footer>
