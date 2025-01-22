@@ -1,11 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 import { cn } from "@/utils/cn";
-//import { BackgroundGradientAnimation } from "./GradientBg";
 
-// import { GlobeDemo } from "./GridGlobe";
 import Lottie from "react-lottie";
-// import animationData from "@/data/confetti.json";
+
 import animationData from "@/data/lottie-confetti.json";
 import { useState } from "react";
 import MagicButton from "./MagicButton";
@@ -97,11 +95,6 @@ export const BentoGridItem = ({
             />
           )}
         </div>
-        {/* {id === 6 && (
-          <BackgroundGradientAnimation> */}
-
-        {/* </BackgroundGradientAnimation>
-        )} */}
 
         <div
           className={cn(
@@ -152,7 +145,7 @@ export const BentoGridItem = ({
             </div>
           )}
           {id === 6 && (
-            <div className="relative">
+            <div className="relative mt-4">
               <div
                 className={`absolute -bottom-5 right-0 ${
                   copied ? "block" : "hidden"
@@ -177,7 +170,7 @@ export const BentoGridItem = ({
                 icon={<IoCopyOutline />}
                 position="left"
                 handleClick={handleCopy}
-                otherClasses=" mb-4"
+                otherClasses=" mb-4 "
                 colorBtn="violet"
               />
             </div>
