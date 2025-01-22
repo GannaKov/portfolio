@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
             colorBtn="dark"
           />
         </a>
-        <p className="text-white text-center ">or</p>
+        <p className="text-white text-center mb-8 ">or</p>
         <div className="w-[239px]">
           <MagicButton
             title={copied ? "Email is Copied!" : "Copy my email address"}
