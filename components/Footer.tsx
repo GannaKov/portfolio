@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
   };
   return (
     <footer
-      className=" relative w-full pt-20 md:pb-12 pb-[100px]  border-t border-slate-600 bg-black-100"
+      className=" relative px-2 lg:px-0 w-full pt-20 md:pb-12 pb-[100px]  border-t border-slate-600 bg-black-100"
       id="contact"
     >
       <div className=" relative flex flex-col items-center">

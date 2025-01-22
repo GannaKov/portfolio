@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
   }, [theme]);
 
   return (
-    <div className=" pt-40">
+    <section className=" pt-40 max-w-[1940px]">
       <div>
         <Spotlight
           className="-top-32 -left-[40%] md:-left-16 md:-top-0 lg:-top-20 h-screen"
@@ -61,7 +61,7 @@ const Hero: React.FC = () => {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

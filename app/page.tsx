@@ -22,8 +22,7 @@ const Home = (): JSX.Element => {
         {/* end mask */}
         <FloatingNav navItems={navItems} />
         <ModeToggle />
-        <main>
-         
+        <main className="flex flex-col items-center justify-center w-full">
           <Hero />
           <About />
           <RecentProjects />
