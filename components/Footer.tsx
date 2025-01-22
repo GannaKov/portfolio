@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
   };
   return (
     <footer
-      className=" relative w-full pt-20 md:pb-12 pb-[100px]  border-t border-slate-600 bg-black-100"
+      className=" relative px-2 lg:px-0 w-full pt-20 md:pb-12 pb-[100px]  border-t border-slate-600 bg-black-100"
       id="contact"
     >
       <div className=" relative flex flex-col items-center">
@@ -72,7 +72,7 @@ const Footer: React.FC = () => {
           </a>
         </div>
         <p className="md:text-base text-xs md:font-normal text-white-200 font-light">
-          2024 Ganna Kovchyk
+          2025 Ganna Kovchyk
         </p>
       </div>
     </footer>

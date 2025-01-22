@@ -4,7 +4,7 @@ import { gridItems } from "@/data";
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="sm:px-10 px-5 pt-40 ">
+    <section id="about" className="sm:px-10 px-5 pt-40 max-w-[1940px] w-full ">
       <BentoGrid>
         {gridItems.map(
           ({

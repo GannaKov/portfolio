@@ -4,8 +4,10 @@ import { Button } from "./ui/MovingBorder";
 
 const Experience: React.FC = () => {
   return (
-    <section className="pt-40 sm:px-10 px-5 relative" id="experience">
-    
+    <section
+      className="pt-40 sm:px-10 px-5 relative max-w-[1940px] w-full"
+      id="experience"
+    >
       <h1 className=" heading  text-black dark:text-blue-100 mb-16">
         My work&nbsp;
         <span className="text-purple-200 dark:text-purple-100">experience</span>

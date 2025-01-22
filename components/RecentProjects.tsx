@@ -6,8 +6,10 @@ import { FaLocationArrow } from "react-icons/fa";
 
 const RecentProjects: React.FC = () => {
   return (
-    <section className="pt-40 relative sm:px-10 px-5" id="projects">
-   
+    <section
+      className="pt-40 relative sm:px-10 px-5 max-w-[1940px] w-full"
+      id="projects"
+    >
       <h1 className=" heading text-black dark:text-blue-100 mb-16">
         A small selection of&nbsp;
         <span className="text-purple-200 dark:text-purple-100">
@@ -22,7 +24,7 @@ const RecentProjects: React.FC = () => {
             key={id}
           >
             <PinContainer title={link} href={link}>
-              <div className="grid grid-cols-[1fr] grid-rows-[3fr,1.5fr,1fr]">
+              <div className="grid grid-cols-[1fr] grid-rows-[3fr,2fr,1fr]">
                 <div className="relative flex items-center justify-center sm:w-[470px] w-[80vw] overflow-hidden  mb-10">
                   <div
                     className="relative w-full h-full overflow-hidden lg:rounded-3xl "
