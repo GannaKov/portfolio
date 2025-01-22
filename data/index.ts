@@ -120,7 +120,7 @@ export const projects: ProjectsProps = [
   {
     id: 2,
     title: "Travel Scratchpad",
-    des: "This is the initial version of a travel-focused social network, created as a final project at WBS Coding School.",
+    des: "This is the initial version of a travel-focused social network, created as a final project at WBS Coding School. To access the full functionality of the project: login:test@test.com, password:123456",
 
     img: "/projects/travel.png",
     iconLists: [
