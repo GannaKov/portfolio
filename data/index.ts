@@ -102,8 +102,24 @@ export type ProjectsProps = projectProps[];
 export const projects: ProjectsProps = [
   {
     id: 1,
+    title: "Factory Equipment Tracker",
+    des: "Demo version – In Progress. Internal tool for tracking equipment status and downtime at a manufacturing plant. Built with Next.js, PostgreSQL (via Drizzle ORM), and Tailwind CSS. Prototype evolves alongside the real app (not public due to confidentiality).",
+
+    img: "/projects/plant-hub-1.png",
+    iconLists: [
+      "/techIcons/re.svg",
+      "/techIcons/next.svg",
+      "/techIcons/tail.svg",
+      "/techIcons/ts.svg",
+      "/techIcons/postgresql_logo.svg",
+      "/techIcons/drizzle_logo.svg",
+    ],
+    link: "https://plant-hub-navy.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Everything can move",
-    des: "In progress... This is a bold and thrilling team project featuring stunning animations and a unique concept: two completely different designs with a Switch button.",
+    des: "This is a bold and thrilling team project featuring stunning animations and a unique concept: two completely different designs with a Switch button.",
 
     img: "/projects/ani5.png",
     iconLists: [
@@ -118,7 +134,7 @@ export const projects: ProjectsProps = [
     link: "https://baza-everything-can-move.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Travel Scratchpad",
     des: "This is the initial version of a travel-focused social network, created as a final project at WBS Coding School. To access the full functionality of the project: login:test@test.com, password:123456",
 
@@ -136,7 +152,7 @@ export const projects: ProjectsProps = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "Snap & Share: A React Native Photo App",
     des: "A mobile app created with React Native that lets users snap photos, tag locations automatically, and share with others who can like and comment on posts.",
 
@@ -145,7 +161,7 @@ export const projects: ProjectsProps = [
     link: "https://github.com/GannaKov/goit-react-native-hw-01",
   },
   {
-    id: 4,
+    id: 5,
     title: "Developer's Portfolio",
     des: "A creative and interactive portfolio website designed to showcase my professional skills and experiences in web development",
 
@@ -158,7 +174,7 @@ export const projects: ProjectsProps = [
     link: "https://portfolio-ganna-kovchyk.vercel.app",
   },
   {
-    id: 5,
+    id: 6,
     title: "SoYummy: A React Recipe App ",
     des: "A collaborative project. My contributions to the project included developing the HomePage, Search functionality, and Recipe Card components.",
 
@@ -171,7 +187,7 @@ export const projects: ProjectsProps = [
     link: "https://vladossid.github.io/project-fullstack-frontend/home",
   },
   {
-    id: 6,
+    id: 7,
     title: "New Project",
     des: "I am continuously striving to improve my skills, working on new projects, and learning from best practices.",
 
