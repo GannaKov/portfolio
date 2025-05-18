@@ -103,7 +103,7 @@ export const projects: ProjectsProps = [
   {
     id: 1,
     title: "Factory Equipment Tracker",
-    des: "Demo version – In Progress. Internal tool for tracking equipment status and downtime at a manufacturing plant. Built with Next.js, PostgreSQL (via Drizzle ORM), and Tailwind CSS. Prototype evolves alongside the real app (not public due to confidentiality).",
+    des: "Demo version – In Progress. Internal tool for tracking equipment status and downtime at a manufacturing plant. Prototype evolves alongside the real app (NDA-protected). Demo access: login user1, password 123456.",
 
     img: "/projects/plant-hub-1.png",
     iconLists: [
@@ -230,46 +230,38 @@ export const workExperience: WorkExperienceProps = [
   {
     id: 1,
     title: "Full Stack Developer",
-    desc1: "Baza Trainee Ukraine, remote (Aug 2024 - Present)",
+    desc1: "Freelance ( 04/2025 - present)",
     desc2:
-      "Developed web applications with Next.js and TypeScript, implementing UI/UX designs and optimizing performance. Collaborated with designers and QA teams to deliver fully functional applications. Integrated payment systems using both front-end and back-end technologies",
-    className: "md:col-span-2",
-
-    thumbnail: "/experience/exp5.svg",
-  },
-  {
-    id: 2,
-    title: "Full Stack Web and App Development course",
-    desc1: "WBS CODING SCHOOL, Berlin, Germany ( 11/2023 - 05/2024)",
-    desc2:
-      "Project-based learning with a focus on team-oriented and agile methods. Completed numerous coding exercises, including a final individual project, and participated in pair programming tasks.",
+      "Designed and developed an internal equipment management system for a manufacturing company. Built a QR-based tracking solution using Next.js, PostgreSQL, and Drizzle ORM. Implemented secure authentication, stoppage logging, and staff assignment features. Delivered updates based on direct communication with stakeholders.",
     className: "md:col-span-2",
     thumbnail: "/experience/exp1.svg",
   },
   {
-    id: 3,
-    title: "Full Stack Developer course",
-    desc1: "GoIT, Ukraine ( 05/2022 - 04/2023)",
+    id: 2,
+    title: "Frontend Developer",
+    desc1: "Baza Trainee Ukraine, remote (Aug 2024 - Feb 2025)",
     desc2:
-      "Engaged in extensive project-based learning with an emphasis on team collaboration and agile methodologies. Contributed to large-scale team projects, including a comprehensive final project, and completed various individual assignments.",
+      "Contributed to responsive web applications using Next.js and TypeScript. Implemented UI/UX designs, integrated payment systems, and enhanced interactivity with Framer Motion and Three.js. Collaborated with a cross-functional team in an Agile environment.",
     className: "md:col-span-2",
+
     thumbnail: "/experience/exp4.svg",
   },
+
   {
-    id: 4,
+    id: 3,
     title: "Business Owner",
     desc1: "Ukraine ( until 24.02.2022)",
     desc2:
-      "Managed and grew a successful business, overseeing all aspects including operations, finance, and marketing. Developed strong project management and problem-solving skills. Led a team, fostering collaboration and effective communication.",
+      "Managed all aspects of business operations, including strategy, finance, client relations, hiring, and team leadership. Led negotiations and secured long-term partnerships, driving sustainable business growth. Oversaw investment planning and expansion, growing the company from the ground up into a successful enterprise.",
     className: "md:col-span-2",
     thumbnail: "/experience/exp3.svg",
   },
   {
-    id: 5,
-    title: "Chief Sales Manager",
+    id: 4,
+    title: "Head of Product Sales",
     desc1: "LLC 'Triton', Kharkiv, Ukraine",
     desc2:
-      "Led a sales department, negotiating with clients and suppliers. Managed financial and inventory records. Supervised staff, ensuring effective team performance and customer satisfaction.",
+      "Led B2B sales and inventory operations in a dynamic business environment. Managed a team of sales professionals, enhancing performance through training and clear processes. Implemented a tailored inventory management system, improving accuracy and overall workflow efficiency.",
     className: "md:col-span-2",
 
     thumbnail: "/experience/exp2.svg",
@@ -305,16 +297,6 @@ export type MyPlansProps = myPlans[];
 
 export const myPlans: MyPlansProps = [
   {
-    title: "TypeScript",
-    description:
-      "Enhancing my JavaScript skills with TypeScript to write more reliable and maintainable code.",
-  },
-  {
-    title: "Vue.js",
-    description:
-      "Exploring Vue.js to expand my front-end development expertise.",
-  },
-  {
     title: "Integrating AI/LLM into Web Applications",
     description:
       "Learning how to integrate artificial intelligence, specifically large language models (LLMs), into web applications to create smarter and more interactive user experiences.",
@@ -323,5 +305,10 @@ export const myPlans: MyPlansProps = [
     title: "AWS (Amazon Web Services)",
     description:
       "Gaining proficiency in AWS to manage and deploy scalable web applications and services.",
+  },
+  {
+    title: "Vue.js",
+    description:
+      "Exploring Vue.js to expand my front-end development expertise.",
   },
 ];

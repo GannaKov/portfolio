@@ -49,7 +49,7 @@ const Hero: React.FC = () => {
           />
 
           <p className="text-center mb-16 md:tracking-wider text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Ganna, an Aspiring Web Developer
+            Hi! I&apos;m Ganna, a Web Developer
           </p>
           <a href="#projects">
             <MagicButton
