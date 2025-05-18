@@ -135,6 +135,20 @@ export const projects: ProjectsProps = [
   },
   {
     id: 3,
+    title: "Sales Dashboard",
+    des: "An interactive dashboard for visualizing supermarket sales data. Users can filter by city, customer type, gender, and age group. Built with Python, Streamlit, and Plotly for real-time data exploration and beautiful visualizations.",
+
+    img: "/projects/sales-dashboard.png",
+    iconLists: [
+      "/techIcons/python.svg",
+      "/techIcons/streamlit.svg",
+      "/techIcons/pandas.svg",
+      "/techIcons/ploty.svg",
+    ],
+    link: "dashboard-test-sells.streamlit.app/",
+  },
+  {
+    id: 4,
     title: "Travel Scratchpad",
     des: "This is the initial version of a travel-focused social network, created as a final project at WBS Coding School. To access the full functionality of the project: login:test@test.com, password:123456",
 
@@ -152,7 +166,7 @@ export const projects: ProjectsProps = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: "Snap & Share: A React Native Photo App",
     des: "A mobile app created with React Native that lets users snap photos, tag locations automatically, and share with others who can like and comment on posts.",
 
@@ -161,7 +175,7 @@ export const projects: ProjectsProps = [
     link: "https://github.com/GannaKov/goit-react-native-hw-01",
   },
   {
-    id: 5,
+    id: 6,
     title: "Developer's Portfolio",
     des: "A creative and interactive portfolio website designed to showcase my professional skills and experiences in web development",
 
@@ -174,7 +188,7 @@ export const projects: ProjectsProps = [
     link: "https://portfolio-ganna-kovchyk.vercel.app",
   },
   {
-    id: 6,
+    id: 7,
     title: "SoYummy: A React Recipe App ",
     des: "A collaborative project. My contributions to the project included developing the HomePage, Search functionality, and Recipe Card components.",
 
@@ -187,7 +201,7 @@ export const projects: ProjectsProps = [
     link: "https://vladossid.github.io/project-fullstack-frontend/home",
   },
   {
-    id: 7,
+    id: 8,
     title: "New Project",
     des: "I am continuously striving to improve my skills, working on new projects, and learning from best practices.",
 
