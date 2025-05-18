@@ -5,6 +5,8 @@ import { TextGenerateEffect } from "./ui/text-generate-effect";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa";
 import { useTheme } from "next-themes";
+import { FaSquareGithub } from "react-icons/fa6";
+import { FaArrowRight } from "react-icons/fa";
 
 const Hero: React.FC = () => {
   const { theme, setTheme } = useTheme();
@@ -59,6 +61,18 @@ const Hero: React.FC = () => {
               colorBtn="regular"
             />
           </a>
+          <div className="flex items-center mt-8 gap-8">
+            <p>My GitHub</p>
+            <FaArrowRight />
+            <a
+              className="flex justify-center items-center pointer rounded-full w-[35px] h-[35px] text-white bg-[rgba(12,14,35,1)]  hover:text-[rgba(12,14,35,1)]  hover:bg-blue-100 border border-white transition-colors duration-300"
+              href="https://github.com/GannaKov"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaSquareGithub className="w-[22px] h-[22px]  " />
+            </a>
+          </div>
         </div>
       </div>
     </section>
