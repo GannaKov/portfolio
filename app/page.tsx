@@ -10,6 +10,7 @@ import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { navItems } from "@/data";
 
 import { ModeToggle } from "@/components/ui/ModeToggle";
+import Projects from "@/components/Projects";
 
 const Home = (): JSX.Element => {
   return (
@@ -26,6 +27,7 @@ const Home = (): JSX.Element => {
           <Hero />
           <About />
           <RecentProjects />
+          <Projects />
           <Experience />
           <Plans />
         </main>
