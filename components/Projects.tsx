@@ -20,23 +20,26 @@ const Projects: React.FC = () => {
       <div className="w-full flex flex-wrap items-center justify-around  gap-y-20  md:gap-y-40 ">
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <div
-            className="flex bg-black-100 rounded-2xl  shadow-[0_8px_16px_rgb(0_0_0/0.4)] border border-white/[0.1]  p-4 items-center justify-center w-full sm:w-[502px] overflow-hidden "
+            className="flex bg-black-100 rounded-2xl  shadow-[0_8px_16px_rgb(0_0_0/0.4)] border border-white/[0.1] p-4  md:p-8 items-center justify-center w-full sm:w-[534px] overflow-hidden "
             key={id}
           >
             {/* title={link} href={link} */}
 
             <div className="grid grid-cols-[1fr] grid-rows-[3fr,2fr,1fr]">
-              <div className="relative flex items-center justify-center overflow-hidden  mb-10">
+              <div className=" relative flex items-center justify-center overflow-hidden  mb-10">
                 <div
-                  className="relative w-full h-full overflow-hidden lg:rounded-3xl "
+                  className="relative w-full h-full overflow-hidden rounded-3xl  "
                   style={{ backgroundColor: "#13162D" }}
                 >
-                  <img src="/bg.png" alt="bgimg" />
+                  <Image src="/bg.png" alt="bgimg" width={500} height={500} />
                 </div>
-                <img
+                <Image
                   src={img}
                   alt={title}
-                  className="z-10 absolute rotate-3 scale-[0.9]"
+                  //   width={500}
+                  //   height={500}
+                  fill={true}
+                  className="z-10 absolute rotate-3 scale-[0.9] p-2"
                 />
               </div>
               <div>
@@ -62,7 +65,13 @@ const Projects: React.FC = () => {
                       key={index}
                       className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
                     >
-                      <img src={icon} alt="icon5" className="p-2" />
+                      <Image
+                        src={icon}
+                        alt="icon5"
+                        width={40}
+                        height={40}
+                        className="p-2"
+                      />
                     </div>
                   ))}
                 </div>
@@ -71,9 +80,7 @@ const Projects: React.FC = () => {
                   target={"_blank"}
                   className="flex justify-center items-center h-full text-white hover:text-purple-100  transition duration-300"
                 >
-                  <p className="flex lg:text-xl md:text-xs text-sm ">
-                    Check Live Site
-                  </p>
+                  <p className="flex lg:text-xl md:text-xs text-sm ">Site</p>
                   <FaLocationArrow
                     className="ms-3    text-[#cbacf9] "
                     // color="#CBACF9"
