@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
-import { projects } from "@/data";
+
 import React from "react";
+import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
 import { FaLocationArrow } from "react-icons/fa";
 import Link from "next/link";

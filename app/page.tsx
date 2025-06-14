@@ -5,11 +5,12 @@ import Footer from "@/components/Footer";
 import About from "@/components/About";
 import Hero from "@/components/Hero";
 import Plans from "@/components/Plans";
-import RecentProjects from "@/components/RecentProjects";
+// import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { navItems } from "@/data";
 
 import { ModeToggle } from "@/components/ui/ModeToggle";
+import Projects from "@/components/Projects";
 
 const Home = (): JSX.Element => {
   return (
@@ -25,7 +26,8 @@ const Home = (): JSX.Element => {
         <main className="flex flex-col items-center justify-center w-full">
           <Hero />
           <About />
-          <RecentProjects />
+          {/* <RecentProjects /> */}
+          <Projects />
           <Experience />
           <Plans />
         </main>
