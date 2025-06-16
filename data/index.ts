@@ -186,7 +186,11 @@ export const projects: ProjectsProps = [
     des: "A mobile app created with React Native that lets users snap photos, tag locations automatically, and share with others who can like and comment on posts.",
 
     img: "/projects/native.png",
-    iconLists: ["/techIcons/re.svg", "/techIcons/firebase.svg"],
+    iconLists: [
+      "/techIcons/re.svg",
+      "/techIcons/expo.svg",
+      "/techIcons/firebase.svg",
+    ],
     link: "https://github.com/GannaKov/goit-react-native-hw-01",
   },
   {
